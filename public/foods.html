@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- foods.html  Example food page displaying food data. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="foods.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="foods.js" defer></script>
+    <title>Food Data</title>
+</head>
+<body>
+  <header>FOODS APP</header>
+  <!-- Use this div as a container for nav and main. -->
+  <div class="maincontainer">
+    <nav>
+      <!-- Start with nothing here, 
+           a list of food names will be created -->
+    </nav>
+    <main>
+        <div class="container">
+        <button type="button" id="editbutton">Edit</button>
+        <button type="button" id="addbutton">Add</button>
+        <button type="button" id="deletebutton">Delete</button>
+        </div>
+       <p>
+         <label for="itemname">Name:</label>
+         <input type="text" id="itemname" name="itemname" value="None" readonly>
+       </p>
+       <p>
+         <label for="serv">Serving:</label>
+         <input type="text" class="digits" id="serv" name="serv" value="0" readonly>
+         <span id="units"></span>
+       </p>
+       <p>
+         <label for="kcal">Calories:</label>
+         <input type="text" class="digits" id="kcal" name="kcal" value="0" readonly>
+       </p>
+       <p>
+         <label for="sodium">Sodium:</label>
+         <input type="text" class="digits" id="sodium" name="sodium" value="0" readonly>
+       </p>
+    </main>
+  </div>
+</body>
+</html>

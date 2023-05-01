@@ -1,0 +1,124 @@
+/* Set default styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    margin-top: 200px;
+    font-size: 30px;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the links */
+a {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Style the main content area */
+main {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+/* Style the buttons */
+button {
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Style the "Add" button */
+#addbutton {
+    background-color: #008CBA;
+}
+
+/* Style the "Edit" button */
+#editbutton {
+    background-color: #f44336;
+}
+
+/* Style the "Delete" button */
+#deletebutton {
+    background-color: #555555;
+}
+
+/* Style the input boxes */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Navigation Styles */
+nav {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+}
+
+/* Style the lists to be on the left side */
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Style the container */
+.maincontainer {
+    display: flex;
+}
